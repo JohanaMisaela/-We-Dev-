@@ -1,58 +1,73 @@
 import React from 'react'
+import { IonIcon } from '@ionic/react'
+import './../assets/styles/navbar.css'
 
+import { homeOutline ,addOutline, personOutline,playOutline ,chatboxOutline} from 'ionicons/icons'
 function Navbar() {
+    const list = document.querySelectorAll('.list');
+    function activeLink (){
+        list.forEach((item) => 
+        item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item) =>
+    item.addEventListener("click", activeLink))
+    
   return (
     <div className='navigation'>
+        
         <ul>
-            <li className='list'>
+            <li className='list active'>
                 <a>
                     <span className='icon'>
-                        <ion-icon name="home-outline"></ion-icon>
-                        </span>
-                    <span className='Home'></span>
+                    <IonIcon icon={homeOutline} />
+                     </span>
+                    <span className='text'>Home</span>
 
                 </a>
             </li>
             <li className='list'>
                 <a>
                     <span className='icon'>
-                    <ion-icon name="person-outline"></ion-icon>
-                    </span>
-                    <span className='Me'></span>
+                    <IonIcon icon={personOutline} />
+                     </span>
+                    <span className='text'>Profil</span>
+
+                </a>
+            </li>
+            <li className='list '>
+                <a>
+                    <span className='icon'>
+                    <IonIcon icon={addOutline} />
+                     </span>
+                    <span className='text'>Add</span>
 
                 </a>
             </li>
             <li className='list'>
                 <a>
                     <span className='icon'>
-                    <ion-icon name="add-outline"></ion-icon>
-                    </span>
-                    <span className='Add'></span>
+                    <IonIcon icon={playOutline} />
+                     </span>
+                    <span className='text'>Play</span>
 
                 </a>
             </li>
             <li className='list'>
                 <a>
                     <span className='icon'>
-                    <ion-icon name="play-outline"></ion-icon>
-                    </span>
-                    <span className='Play'></span>
+                    <IonIcon icon={chatboxOutline} />
+                     </span>
+                    <span className='text'>Chat</span>
 
                 </a>
             </li>
-            <li className='list'>
-                <a>
-                    <span className='icon'>
-                    <ion-icon name="chatbubble-outline"></ion-icon>
-                    </span>
-                    <span className='Chat'></span>
+        <div className='indicator'>
 
-                </a>
-            </li>
+        </div>
+            
         </ul>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    </div>
+          </div>
     
   )
 }
