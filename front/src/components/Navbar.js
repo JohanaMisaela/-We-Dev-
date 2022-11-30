@@ -4,15 +4,26 @@ import './../assets/styles/navbar.css'
 
 import { homeOutline ,addOutline, personOutline,playOutline ,chatboxOutline} from 'ionicons/icons'
 function Navbar() {
+
     const list = document.querySelectorAll('.list');
-    function activeLink (){
+    // function activeLink (){
+    //     list.forEach((item) => 
+    //     item.classList.remove('active'));
+    //     this.classList.add('active');
+    // }
+    // list.forEach((item) =>
+    // item.addEventListener("click", activeLink))
+    
+    function activeLink(e) {
         list.forEach((item) => 
         item.classList.remove('active'));
         this.classList.add('active');
-    }
-    list.forEach((item) =>
-    item.addEventListener("click", activeLink))
-    
+
+      }
+      list.forEach((item) => {
+        item.addEventListener("click", activeLink)}
+      )
+
   return (
     <div className='navigation'>
         
