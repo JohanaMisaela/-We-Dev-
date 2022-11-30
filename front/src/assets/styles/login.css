@@ -40,7 +40,7 @@ body:before {
   left: 0;
   height: 2px;
   width: 100%;
-  background: linear-gradient(to right, #35c3c1, #00d6b7);
+  background: linear-gradient(to right, #35c3c1, #2b6c70);
 }
 @media screen and (min-width: 600px) {
   .login-form {
@@ -80,7 +80,7 @@ body:before {
   display: block;
   padding: 1em;
   width: 100%;
-  background: linear-gradient(to right, #35c3c1, #00d6b7);
+  background: linear-gradient(to right, #35c3c1, #2b6c70);
   border: 0;
   color: #fff;
   cursor: pointer;
@@ -96,7 +96,7 @@ body:before {
 
 .lf--forgot {
   margin-top: 1em;
-  color: #00d6b7;
+  color:  #2b6c70;
   font-size: 0.65em;
   text-align: center;
   position: relative;

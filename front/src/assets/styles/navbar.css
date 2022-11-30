@@ -27,6 +27,7 @@ background: var(--clr);
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    bottom: 0;
 }
 .navigation ul 
 {
