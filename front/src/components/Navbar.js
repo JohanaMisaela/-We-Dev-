@@ -2,7 +2,7 @@ import React from 'react'
 import { IonIcon } from '@ionic/react'
 import './../assets/styles/navbar.css'
 
-import { homeOutline ,addOutline, personOutline,playOutline ,chatboxOutline} from 'ionicons/icons'
+import { homeOutline ,addOutline, personOutline,playOutline ,chatboxOutline, navigate} from 'ionicons/icons'
 function Navbar() {
     const list = document.querySelectorAll('.list');
     function activeLink (){
@@ -12,12 +12,11 @@ function Navbar() {
     }
     list.forEach((item) =>
     item.addEventListener("click", activeLink))
-    
   return (
     <div className='navigation'>
         
         <ul>
-            <li className='list active'>
+            <li className='list '>
                 <a>
                     <span className='icon'>
                     <IonIcon icon={homeOutline} />
@@ -35,7 +34,7 @@ function Navbar() {
 
                 </a>
             </li>
-            <li className='list '>
+            <li className='list active '>
                 <a>
                     <span className='icon'>
                     <IonIcon icon={addOutline} />

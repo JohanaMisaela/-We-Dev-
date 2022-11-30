@@ -89,7 +89,7 @@ background: var(--clr);
     position: absolute;
     width: 70px;
     height: 70px;
-    background: rgb(29, 25, 25);
+    background: #2b6c70;
     top: -50%;
     border-radius: 50%;
     border: 6px solid var(--clr);
