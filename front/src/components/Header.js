@@ -3,14 +3,16 @@ import './../assets/styles/header.css'
 import { personOutline} from 'ionicons/icons'
 import { logOutOutline } from 'ionicons/icons'
 import { IonIcon } from '@ionic/react'
-
+import Menubar from './Menubar.js'
 function Header() {
   return (
     <div>
         <div className="nav-container">
           <a href='./Home'> <div id='logo'>    
            </div></a>
-           
+           <div>
+            <Menubar />           
+            </div>
            <div id='user'>
            <a href='./Profil'>
             <span className='icon1'>

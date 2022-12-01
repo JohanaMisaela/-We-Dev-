@@ -1,16 +1,19 @@
 import React from 'react'
-import Navbar from '../../components/Navbar.js'
+
 import Header from '../../components/Header.js'
 import Addpost from '../../layouts/addpost.js'
 import Viewpost from '../../layouts/viewpost.js'
+import './../../assets/styles/home.css'
 function Home() {
   return (
     <div>
        <Header/>
-    <Addpost/>
+
+       <div className='card-addpost'> <Addpost/></div>
+   
     <Viewpost/>
     
-        <Navbar/>
+       
     </div>
   )
 }

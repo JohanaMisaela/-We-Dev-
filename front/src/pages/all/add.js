@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar.js'
 import Header from '../../components/Header.js'
 import Addpost from '../../layouts/addpost.js'
 function Add() {
@@ -8,7 +7,7 @@ function Add() {
       <Header/>
       <Addpost/>
      
-      <Navbar/>
+   
     </div>
   )
 }
