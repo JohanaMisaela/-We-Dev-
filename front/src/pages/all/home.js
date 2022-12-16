@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from '../../components/footer.js'
 import Header from '../../components/Header.js'
 import Addpost from '../../layouts/addpost.js'
 import Viewpost from '../../layouts/viewpost.js'
@@ -13,7 +13,7 @@ function Home() {
    
     <Viewpost/>
     
-       
+       <Footer/>
     </div>
   )
 }
