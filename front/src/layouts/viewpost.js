@@ -11,7 +11,7 @@ function Viewpost() {
             <div className='user'></div>
             <div className='form'>
             <h6 id='name'>Johanna Misaela</h6>
-            <p>One hours ago</p>
+            <p className='time'>One hours ago</p>
             </div>
             </div>
             <div className='frame'>
@@ -30,7 +30,7 @@ function Viewpost() {
             <div className='user'></div>
             <div className='form'>
             <h6 id='name'>Johanna Misaela</h6>
-            <p>One hours ago</p>
+            <p className='time'>One hours ago</p>
             </div>
             </div>
             <div className='frame'>
