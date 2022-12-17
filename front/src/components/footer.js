@@ -1,13 +1,14 @@
 import React from 'react'
-
+import './../assets/styles/footer.css'
 function Footer() {
     const currentYear = new Date().getFullYear();
+    const wedev = '<We-Dev/>'
   return (
-    <div>
-        <div class="col-md-6 col-lg-8">
-            <p class="copyright">
-  Copyright &copy; {currentYear} </p>
-  <p class="copyright">All rights reserved. </p>
+    <div className='footer'>
+        <div className="col-md-6 col-lg-8">
+            <p className="copyright">
+  Copyright &copy; {currentYear} {wedev} </p>
+
           </div>
     </div>
   )
