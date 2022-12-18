@@ -25,7 +25,7 @@ function Viewpost() {
   
             </div>
       </div>
-      <div className='postview'>
+      {/* <div className='postview'>
       <div className='post-card'>
             <div className='user'></div>
             <div className='form'>
@@ -44,7 +44,7 @@ function Viewpost() {
   
             </div>
       </div>
-      
+       */}
     </div>
   )
 }
