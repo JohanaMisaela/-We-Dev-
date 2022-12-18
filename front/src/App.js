@@ -5,8 +5,7 @@ import Add from './pages/all/add'
 import Profil from './pages/all/profil'
 import Play from './pages/all/play'
 import Chat from './pages/all/chat'
-
-import Addpost from "./layouts/addpost";
+import Addpost from "./components/addpost";
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/Header.js'
-import Footer from '../../components/footer.js'
+import Header from '../../layouts/Header.js'
+import Footer from '../../layouts/footer.js'
 function Play() {
   return (
     <div>play

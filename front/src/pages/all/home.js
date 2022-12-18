@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../../components/footer.js'
-import Header from '../../components/Header.js'
-import Addpost from '../../layouts/addpost.js'
-import Viewpost from '../../layouts/viewpost.js'
+import Footer from '../../layouts/footer.js'
+import Header from '../../layouts/Header.js'
+import Addpost from '../../components/addpost.js'
+import Viewpost from '../../components/viewpost.js'
 import './../../assets/styles/home.css'
 function Home() {
   return (
