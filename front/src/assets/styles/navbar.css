@@ -189,3 +189,9 @@ background: var(--clr);
     font-family:'poppins',sans-serif;
     font-size:18px;
  }
+li:active {
+    background-color: #2b6c70;
+  box-shadow: 0 5px #2b6c70;
+  transform: translateY(-4px);
+  bottom: -5px;
+  }
